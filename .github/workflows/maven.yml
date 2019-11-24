@@ -17,5 +17,5 @@ jobs:
       run: mvn -B package --file pom.xml
     - uses: actions/upload-artifact@v1
       with:
-        name: library-common.jar
-        path: target/library-common-*.jar
+        name: build
+        path: target/library-common-1.0-SNAPSHOT.jar
